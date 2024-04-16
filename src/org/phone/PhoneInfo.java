@@ -10,6 +10,9 @@ public class PhoneInfo {
 	private void phoneName(long i, String namee, char c) {
 		System.out.println("MyPhone: RedMi3");
 	}
+		private void m1() {
+		System.out.println(1);
+	}
 	public static void main(String[] args) {
 		PhoneInfo b = new PhoneInfo();
 		b.phoneName('h', "karen", 657686876l);
