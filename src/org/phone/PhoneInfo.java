@@ -13,6 +13,9 @@ public class PhoneInfo {
 		private void m1() {
 		System.out.println(1);
 	}
+		private void m4() {
+			System.out.println(1);
+		}
 	public static void main(String[] args) {
 		PhoneInfo b = new PhoneInfo();
 		b.phoneName('h', "karen", 657686876l);
